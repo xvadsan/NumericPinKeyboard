@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NumericPinKeyboard</string>
+    <string name="numericKeyboardOne">"1"</string>
+    <string name="numericKeyboardTwo">"2"</string>
+    <string name="numericKeyboardThree">"3"</string>
+    <string name="numericKeyboardFour">"4"</string>
+    <string name="numericKeyboardFive">"5"</string>
+    <string name="numericKeyboardSix">"6"</string>
+    <string name="numericKeyboardSeven">"7"</string>
+    <string name="numericKeyboardEight">"8"</string>
+    <string name="numericKeyboardNine">"9"</string>
+    <string name="numericKeyboardZero">"0"</string>
+    <string name="numericForgotPin">"Forgot\npin?"</string>
+    <string name="please_enter_an_access_code">Please enter an access code</string>
+</resources>

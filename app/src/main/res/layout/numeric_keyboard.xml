@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/greyLight">
+
+    <View
+        android:id="@+id/view_one"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/item_number_auth"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="@drawable/ripple_numeric"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/view_two"
+        app:layout_constraintEnd_toStartOf="@+id/view_two"
+        app:layout_constraintTop_toTopOf="@+id/view_two" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numericKeyboardOne"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_one"
+        app:layout_constraintEnd_toEndOf="@+id/view_one"
+        app:layout_constraintStart_toStartOf="@+id/view_one"
+        app:layout_constraintTop_toTopOf="@+id/view_one" />
+
+    <View
+        android:id="@+id/view_two"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/item_number_auth"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="@drawable/ripple_numeric"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/view_five"
+        app:layout_constraintEnd_toEndOf="@+id/view_five"
+        app:layout_constraintStart_toStartOf="@+id/view_five" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numericKeyboardTwo"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_two"
+        app:layout_constraintEnd_toEndOf="@+id/view_two"
+        app:layout_constraintStart_toStartOf="@+id/view_two"
+        app:layout_constraintTop_toTopOf="@+id/view_two" />
+
+    <View
+        android:id="@+id/view_three"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="16dp"
+        android:clickable="true"
+        android:background="@drawable/item_number_auth"
+        android:focusable="true"
+        android:foreground="@drawable/ripple_numeric"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/view_two"
+        app:layout_constraintStart_toEndOf="@+id/view_two"
+        app:layout_constraintTop_toTopOf="@+id/view_two" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numericKeyboardThree"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_three"
+        app:layout_constraintEnd_toEndOf="@+id/view_three"
+        app:layout_constraintStart_toStartOf="@+id/view_three"
+        app:layout_constraintTop_toTopOf="@+id/view_three" />
+
+    <View
+        android:id="@+id/view_four"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:background="@drawable/item_number_auth"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="@drawable/ripple_numeric"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/view_five"
+        app:layout_constraintEnd_toStartOf="@+id/view_five"
+        app:layout_constraintTop_toTopOf="@+id/view_five" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numericKeyboardFour"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_four"
+        app:layout_constraintEnd_toEndOf="@+id/view_four"
+        app:layout_constraintStart_toStartOf="@+id/view_four"
+        app:layout_constraintTop_toTopOf="@+id/view_four" />
+
+    <View
+        android:id="@+id/view_five"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:background="@drawable/item_number_auth"
+        android:focusable="true"
+        android:foreground="@drawable/ripple_numeric"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/view_eight"
+        app:layout_constraintEnd_toEndOf="@+id/view_eight"
+        app:layout_constraintStart_toStartOf="@+id/view_eight" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numericKeyboardFive"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_five"
+        app:layout_constraintEnd_toEndOf="@+id/view_five"
+        app:layout_constraintStart_toStartOf="@+id/view_five"
+        app:layout_constraintTop_toTopOf="@+id/view_five" />
+
+    <View
+        android:id="@+id/view_six"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="16dp"
+        android:clickable="true"
+        android:background="@drawable/item_number_auth"
+        android:focusable="true"
+        android:foreground="@drawable/ripple_numeric"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/view_five"
+        app:layout_constraintStart_toEndOf="@+id/view_five"
+        app:layout_constraintTop_toTopOf="@+id/view_five" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numericKeyboardSix"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_six"
+        app:layout_constraintEnd_toEndOf="@+id/view_six"
+        app:layout_constraintStart_toStartOf="@+id/view_six"
+        app:layout_constraintTop_toTopOf="@+id/view_six" />
+
+    <View
+        android:id="@+id/view_seven"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        android:background="@drawable/item_number_auth"
+        android:focusable="true"
+        android:foreground="@drawable/ripple_numeric"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/view_eight"
+        app:layout_constraintEnd_toStartOf="@+id/view_eight"
+        app:layout_constraintTop_toTopOf="@+id/view_eight" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numericKeyboardSeven"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_seven"
+        app:layout_constraintEnd_toEndOf="@+id/view_seven"
+        app:layout_constraintStart_toStartOf="@+id/view_seven"
+        app:layout_constraintTop_toTopOf="@+id/view_seven" />
+
+    <View
+        android:id="@+id/view_eight"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/item_number_auth"
+        android:foreground="@drawable/ripple_numeric"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/view_zero"
+        app:layout_constraintEnd_toEndOf="@+id/view_zero"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/view_zero" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numericKeyboardEight"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_eight"
+        app:layout_constraintEnd_toEndOf="@+id/view_eight"
+        app:layout_constraintStart_toStartOf="@+id/view_eight"
+        app:layout_constraintTop_toTopOf="@+id/view_eight" />
+
+    <View
+        android:id="@+id/view_nine"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/item_number_auth"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="@drawable/ripple_numeric"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/view_eight"
+        app:layout_constraintStart_toEndOf="@+id/view_eight"
+        app:layout_constraintTop_toTopOf="@+id/view_eight" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numericKeyboardNine"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_nine"
+        app:layout_constraintEnd_toEndOf="@+id/view_nine"
+        app:layout_constraintStart_toStartOf="@+id/view_nine"
+        app:layout_constraintTop_toTopOf="@+id/view_nine" />
+
+    <View
+        android:id="@+id/view_zero"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:clickable="true"
+        android:background="@drawable/item_number_auth"
+        android:focusable="true"
+        android:foreground="@drawable/ripple_numeric"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numericKeyboardZero"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_zero"
+        app:layout_constraintEnd_toEndOf="@+id/view_zero"
+        app:layout_constraintStart_toStartOf="@+id/view_zero"
+        app:layout_constraintTop_toTopOf="@+id/view_zero" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/g_delete"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:constraint_referenced_ids="view_delete, iv_delete" />
+
+    <View
+        android:id="@+id/view_delete"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="16dp"
+        android:clickable="true"
+        android:background="@drawable/item_number_auth"
+        android:focusable="true"
+        android:foreground="@drawable/ripple_numeric"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/view_zero"
+        app:layout_constraintStart_toEndOf="@+id/view_zero"
+        app:layout_constraintTop_toTopOf="@+id/view_zero" />
+
+    <ImageView
+        android:id="@+id/iv_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/delete"
+        app:layout_constraintBottom_toBottomOf="@+id/view_delete"
+        app:layout_constraintEnd_toEndOf="@+id/view_delete"
+        app:layout_constraintStart_toStartOf="@+id/view_delete"
+        app:layout_constraintTop_toTopOf="@+id/view_delete" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/g_fingerprint"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        app:constraint_referenced_ids="view_fingerprint, iv_fingerprint" />
+
+    <View
+        android:id="@+id/view_fingerprint"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="16dp"
+        android:clickable="true"
+        android:background="@drawable/item_number_auth"
+        android:focusable="true"
+        android:foreground="@drawable/ripple_numeric"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/view_zero"
+        app:layout_constraintStart_toEndOf="@+id/view_zero"
+        app:layout_constraintTop_toTopOf="@+id/view_zero" />
+
+    <ImageView
+        android:id="@+id/iv_fingerprint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fingerprint"
+        app:layout_constraintBottom_toBottomOf="@+id/view_fingerprint"
+        app:layout_constraintEnd_toEndOf="@+id/view_fingerprint"
+        app:layout_constraintStart_toStartOf="@+id/view_fingerprint"
+        app:layout_constraintTop_toTopOf="@+id/view_fingerprint" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/g_forgot"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        app:constraint_referenced_ids="view_forgot, iv_forgot" />
+
+    <View
+        android:id="@+id/view_forgot"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        android:background="@drawable/item_number_auth"
+        android:focusable="true"
+        android:foreground="@drawable/ripple_numeric"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/view_zero"
+        app:layout_constraintTop_toTopOf="@+id/view_zero" />
+
+    <TextView
+        android:id="@+id/iv_forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/numericForgotPin"
+        android:textColor="@color/gray"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_forgot"
+        app:layout_constraintEnd_toEndOf="@+id/view_forgot"
+        app:layout_constraintStart_toStartOf="@+id/view_forgot"
+        app:layout_constraintTop_toTopOf="@+id/view_forgot" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
