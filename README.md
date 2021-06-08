@@ -4,4 +4,4 @@
 - ViewBindingPropertyDelegate
 - Custom view's
 
-![X Text](https://github.com/xvadsan/NumericPinKeyboard/blob/master/ezgif-6-3a8c9f60fdee.gif)
+![X Text](https://github.com/xvadsan/NumericPinKeyboard/blob/master/gif_about.gif)
